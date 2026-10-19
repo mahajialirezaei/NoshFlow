@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="100%" height="100%" role="img" aria-label="NoshFlow - Restaurant Management System Banner">
+  <title>NoshFlow — FoodOps Restaurant Management Platform</title>
+  <desc>Full-stack restaurant management and food ordering system with synchronized RBAC workflows connecting Customer, Kitchen, Cashier, and Administrator.</desc>
+
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c16"/>
+      <stop offset="45%" stop-color="#0c1222"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="35%" stop-color="#818cf8" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#f59e0b" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#93c5fd"/>
+    </linearGradient>
+
+    <!-- Emblem Gradients -->
+    <linearGradient id="emblem-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+
+    <linearGradient id="fire-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+
+    <!-- Badge Gradients -->
+    <linearGradient id="pill-blue-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="tech-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.25"/>
+    </pattern>
+
+    <!-- Radial Ambient Lighting -->
+    <radialGradient id="glow-top-left" cx="15%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow-top-right" cx="85%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow-bottom-center" cx="50%" cy="90%" r="40%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Base Card Container -->
+  <rect x="2" y="2" width="1196" height="346" rx="16" fill="url(#bg-grad)"/>
+  
+  <!-- Subtle Ambient Glows -->
+  <rect x="2" y="2" width="1196" height="346" rx="16" fill="url(#glow-top-left)"/>
+  <rect x="2" y="2" width="1196" height="346" rx="16" fill="url(#glow-top-right)"/>
+  <rect x="2" y="2" width="1196" height="346" rx="16" fill="url(#glow-bottom-center)"/>
+
+  <!-- Subtle Tech Dot Grid Overlay -->
+  <rect x="2" y="2" width="1196" height="346" rx="16" fill="url(#tech-grid)"/>
+
+  <!-- Glowing Border Outline -->
+  <rect x="2" y="2" width="1196" height="346" rx="16" fill="none" stroke="url(#border-grad)" stroke-width="1.5"/>
+
+  <!-- ======================================================== -->
+  <!-- LEFT HERO EMBLEM: THE CHEF CLOCHE & SUPERSONIC FLOW      -->
+  <!-- ======================================================== -->
+  <g transform="translate(10, 0)">
+    <!-- Outer Ambient Orbit Rings -->
+    <circle cx="125" cy="172" r="82" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <circle cx="125" cy="172" r="74" fill="none" stroke="url(#emblem-grad)" stroke-width="1.5" stroke-dasharray="6 8" stroke-opacity="0.65">
+      <animateTransform attributeName="transform" type="rotate" from="0 125 172" to="360 125 172" dur="25s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Central Plate Backing -->
+    <circle cx="125" cy="172" r="64" fill="#0b1120" stroke="#1e293b" stroke-width="2"/>
+    <circle cx="125" cy="172" r="60" fill="#0f172a" stroke="#334155" stroke-width="1" stroke-opacity="0.5"/>
+
+    <!-- Steam / Savor Currents Above Dome -->
+    <path d="M 112 104 C 112 96 117 93 117 84" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 125 100 C 125 90 131 87 131 76" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" opacity="0.95"/>
+    <path d="M 138 104 C 138 96 143 93 143 84" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- Cloche Lid Dome -->
+    <path d="M 86 166 C 86 126 118 120 125 120 C 132 120 164 126 164 166 Z" fill="url(#emblem-grad)"/>
+    
+    <!-- Cloche Dome Highlight Glare -->
+    <path d="M 94 162 C 95 136 115 127 125 125 C 121 133 103 144 98 162 Z" fill="#ffffff" fill-opacity="0.25"/>
+
+    <!-- Cloche Top Knob -->
+    <circle cx="125" cy="116" r="6" fill="url(#gold-grad)"/>
+    <circle cx="123" cy="114" r="1.5" fill="#ffffff" fill-opacity="0.8"/>
+
+    <!-- Serving Platter Tray Base -->
+    <rect x="78" y="167" width="94" height="6.5" rx="3.25" fill="url(#gold-grad)"/>
+    <rect x="85" y="174" width="80" height="3" rx="1.5" fill="#d97706"/>
+
+    <!-- Dynamic Flow Waves (Real-Time Kitchen Dispatch) -->
+    <path d="M 84 188 C 104 182 118 193 138 187 C 150 183 160 186 166 188" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 92 198 C 108 193 122 203 140 197 C 150 194 158 197 162 198" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 100 207 C 112 203 124 210 136 206 C 144 203 150 205 154 207" fill="none" stroke="#10b981" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- Sparkle Stars -->
+    <path d="M 160 122 Q 160 128 166 128 Q 160 128 160 134 Q 160 128 154 128 Q 160 128 160 122 Z" fill="#fbbf24"/>
+    <path d="M 88 138 Q 88 142 92 142 Q 88 142 88 146 Q 88 142 84 142 Q 88 142 88 138 Z" fill="#38bdf8" opacity="0.8"/>
+
+    <!-- Bottom Emblem Chip -->
+    <rect x="80" y="226" width="90" height="22" rx="11" fill="#131d33" stroke="#253554" stroke-width="1"/>
+    <text x="125" y="240.5" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="800" fill="#38bdf8" text-anchor="middle" letter-spacing="1.2">FOOD-TECH</text>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- TOP METADATA ROW                                         -->
+  <!-- ======================================================== -->
+  <!-- System Status Pill -->
+  <rect x="238" y="38" width="365" height="26" rx="13" fill="#11192b" stroke="#1e2c45" stroke-width="1"/>
+  <circle cx="254" cy="51" r="4.5" fill="#10b981">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="268" y="55" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#94a3b8" letter-spacing="1.4">FULL-STACK RESTAURANT SYSTEM · RBAC ENGINE</text>
+
+  <!-- Architecture Synchronized Pill -->
+  <rect x="613" y="38" width="170" height="26" rx="13" fill="#162035" stroke="#243452" stroke-width="1"/>
+  <text x="698" y="55" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#38bdf8" text-anchor="middle" letter-spacing="0.8">⚡ REAL-TIME SYNC</text>
+
+  <!-- Open Source / Production Ready -->
+  <rect x="793" y="38" width="138" height="26" rx="13" fill="#182236" stroke="#263859" stroke-width="1"/>
+  <text x="862" y="55" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#fbbf24" text-anchor="middle" letter-spacing="0.8">★ ENTERPRISE READY</text>
+
+  <!-- ======================================================== -->
+  <!-- HERO HEADLINE & IDENTITY                                 -->
+  <!-- ======================================================== -->
+  <g transform="translate(238, 108)">
+    <!-- Main Title -->
+    <text x="0" y="0" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="900" fill="url(#title-grad)" letter-spacing="-1.2">NoshFlow</text>
+
+    <!-- Version & Codename Badge -->
+    <rect x="250" y="-36" width="138" height="25" rx="6" fill="url(#pill-blue-grad)"/>
+    <text x="319" y="-19.5" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="0.6">FoodOps Suite v1.0</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="32" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15.5" font-weight="400" fill="#94a3b8">
+      Synchronized Restaurant Operations: Real-Time Kitchen Display, Smart Cart &amp; Multi-Role Dispatch
+    </text>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- 4-ROLE SYNCHRONIZED WORKFLOW PIPELINE                    -->
+  <!-- ======================================================== -->
+  <!-- Role 1: Customer -->
+  <g transform="translate(238, 168)">
+    <rect x="0" y="0" width="206" height="74" rx="12" fill="#0d1527" stroke="#2563eb" stroke-width="1.2" stroke-opacity="0.6"/>
+    <!-- Role Header -->
+    <circle cx="22" cy="24" r="10" fill="#1e3a8a"/>
+    <text x="22" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">👤</text>
+    <text x="40" y="27" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#60a5fa">Customer</text>
+    <circle cx="190" cy="22" r="3" fill="#3b82f6"/>
+    <!-- Role Details -->
+    <text x="14" y="47" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">Digital Menu &amp; Smart Cart</text>
+    <text x="14" y="62" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="400" fill="#64748b">Stock Validation &amp; Live Countdown</text>
+  </g>
+
+  <!-- Connector Arrow 1 -->
+  <g transform="translate(449, 205)">
+    <path d="M 0 0 L 16 0 M 11 -4 L 16 0 L 11 4" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Role 2: Kitchen Staff -->
+  <g transform="translate(474, 168)">
+    <rect x="0" y="0" width="206" height="74" rx="12" fill="#0d1527" stroke="#f59e0b" stroke-width="1.2" stroke-opacity="0.6"/>
+    <!-- Role Header -->
+    <circle cx="22" cy="24" r="10" fill="#78350f"/>
+    <text x="22" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">👨‍🍳</text>
+    <text x="40" y="27" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#fbbf24">Kitchen Staff</text>
+    <circle cx="190" cy="22" r="3" fill="#f59e0b"/>
+    <!-- Role Details -->
+    <text x="14" y="47" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">Kitchen Display System (KDS)</text>
+    <text x="14" y="62" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="400" fill="#64748b">Registered ➔ Preparing ➔ Ready</text>
+  </g>
+
+  <!-- Connector Arrow 2 -->
+  <g transform="translate(685, 205)">
+    <path d="M 0 0 L 16 0 M 11 -4 L 16 0 L 11 4" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Role 3: Cashier / Delivery -->
+  <g transform="translate(710, 168)">
+    <rect x="0" y="0" width="206" height="74" rx="12" fill="#0d1527" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.6"/>
+    <!-- Role Header -->
+    <circle cx="22" cy="24" r="10" fill="#064e3b"/>
+    <text x="22" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">🛵</text>
+    <text x="40" y="27" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#34d399">Cashier &amp; Delivery</text>
+    <circle cx="190" cy="22" r="3" fill="#10b981"/>
+    <!-- Role Details -->
+    <text x="14" y="47" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">Order Handoff &amp; Dispatch</text>
+    <text x="14" y="62" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="400" fill="#64748b">Instant Status Mark: Delivered</text>
+  </g>
+
+  <!-- Connector Arrow 3 -->
+  <g transform="translate(921, 205)">
+    <path d="M 0 0 L 16 0 M 11 -4 L 16 0 L 11 4" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Role 4: Administrator -->
+  <g transform="translate(946, 168)">
+    <rect x="0" y="0" width="206" height="74" rx="12" fill="#0d1527" stroke="#8b5cf6" stroke-width="1.2" stroke-opacity="0.6"/>
+    <!-- Role Header -->
+    <circle cx="22" cy="24" r="10" fill="#4c1d95"/>
+    <text x="22" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="11" text-anchor="middle">👑</text>
+    <text x="40" y="27" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#c084fc">Administrator</text>
+    <circle cx="190" cy="22" r="3" fill="#8b5cf6"/>
+    <!-- Role Details -->
+    <text x="14" y="47" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">Sales Analytics &amp; Control</text>
+    <text x="14" y="62" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="400" fill="#64748b">Menu, Dynamic RBAC, 24/7 Hours</text>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- BOTTOM ROW: TECH STACK BADGES                            -->
+  <!-- ======================================================== -->
+  <!-- Tech 1: React 18 + Vite -->
+  <g transform="translate(238, 272)">
+    <rect x="0" y="0" width="138" height="32" rx="8" fill="#10192e" stroke="#1e2c48" stroke-width="1"/>
+    <circle cx="16" cy="16" r="4.5" fill="#38bdf8"/>
+    <text x="28" y="20.5" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">React 18 + Vite</text>
+  </g>
+
+  <!-- Tech 2: Node.js & Express -->
+  <g transform="translate(386, 272)">
+    <rect x="0" y="0" width="144" height="32" rx="8" fill="#10192e" stroke="#1e2c48" stroke-width="1"/>
+    <circle cx="16" cy="16" r="4.5" fill="#22c55e"/>
+    <text x="28" y="20.5" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">Node.js + Express</text>
+  </g>
+
+  <!-- Tech 3: MongoDB & Mongoose -->
+  <g transform="translate(540, 272)">
+    <rect x="0" y="0" width="154" height="32" rx="8" fill="#10192e" stroke="#1e2c48" stroke-width="1"/>
+    <circle cx="16" cy="16" r="4.5" fill="#10b981"/>
+    <text x="28" y="20.5" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">MongoDB / Mongoose</text>
+  </g>
+
+  <!-- Tech 4: JWT & RBAC -->
+  <g transform="translate(704, 272)">
+    <rect x="0" y="0" width="144" height="32" rx="8" fill="#10192e" stroke="#1e2c48" stroke-width="1"/>
+    <circle cx="16" cy="16" r="4.5" fill="#a855f7"/>
+    <text x="28" y="20.5" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">JWT &amp; Strict RBAC</text>
+  </g>
+
+  <!-- Tech 5: Tailwind CSS -->
+  <g transform="translate(858, 272)">
+    <rect x="0" y="0" width="128" height="32" rx="8" fill="#10192e" stroke="#1e2c48" stroke-width="1"/>
+    <circle cx="16" cy="16" r="4.5" fill="#38bdf8"/>
+    <text x="28" y="20.5" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">Tailwind CSS</text>
+  </g>
+
+  <!-- Tech 6: Vitest & Supertest -->
+  <g transform="translate(996, 272)">
+    <rect x="0" y="0" width="156" height="32" rx="8" fill="#10192e" stroke="#1e2c48" stroke-width="1"/>
+    <circle cx="16" cy="16" r="4.5" fill="#f59e0b"/>
+    <text x="28" y="20.5" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#e2e8f0">Vitest &amp; Supertest</text>
+  </g>
+</svg>

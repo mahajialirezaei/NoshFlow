@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="./docs/imgs/banner.svg" alt="NoshFlow — FoodOps Restaurant Management Platform Banner" width="100%" />
+</div>
+
 # 🍔 FoodOps (NoshFlow) - Restaurant Management System
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
